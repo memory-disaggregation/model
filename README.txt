@@ -1,2 +1,2 @@
 Start with executing Example_git.m
-It will return the results for the case of 2 PMs, a mix of 3 VM classes (mix 1 in the paper), 19 levels of workloads and 13 penalty costs for the disaggregated archicture in addition to the case of the classic architecture
+It will return the results for the case of 2 PMs, a mix of 3 VM classes (mix 1 in the paper), 19 levels of workloads, 7 penalty costs for the disaggregated archicture and the case of the classic architecture

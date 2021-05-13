@@ -15,7 +15,7 @@ mu3 = 1;
 p1 = 1/2;
 p2 = 1/4;
 p3 = 1/4;
-penalty = [1 1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 2 2.1 2.2];
+penalty = [1 1.2 1.4 1.6 1.8 2 2.2];
 pen1 = 1;
 pen2 = 2;
 pen3 = 3;
@@ -77,7 +77,7 @@ Res2c = p2/p3*Res3c;
 
 
 disp(['Max Thr for an acceptance rate of ' num2str(target)]);
-First_col = [9 9 'Control '];
+First_col = [9 9 'Classic '];
 for j = 1:length(penalty)
     First_col = [First_col ' Pen' num2str(j) ':' num2str(penalty(j))];
 end
